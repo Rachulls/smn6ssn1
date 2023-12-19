@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+/* .sectionChooseUs{
+    background-color: blue;
+} */
+
+p{
+    color: orange;
+}
+
+h2 {
+  margin-top: 1rem;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: rgb(248, 248, 248);
+}
+
+.sectionTutors{
+    padding: 40px;
+}
+
+a{
+    text-decoration: none;
+    padding: 0.5rem;
+    background: skyblue;
+    border-radius: 3px;
+}
+
+.containerItems {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.item {
+  border: 1px solid black;
+  text-align: left;
+  padding: 1rem;
+}
